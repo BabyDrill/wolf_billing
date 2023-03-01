@@ -3,6 +3,7 @@ Config = {}
 Config.Billing = {
     item = "fattura",
     trigger = "wolfdev:billing:openmenu",
+    payament = {money = true,bank = true},
     command = "invoces",
     qtarget = true,
     allowedsocieties = {
